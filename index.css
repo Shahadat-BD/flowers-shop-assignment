@@ -40,7 +40,7 @@ body{
 }
 /* header section design end */
 
-/*main section design start */
+/*main section-1 design start */
 /* flower-features design start */
 main{
     width: 80%;
@@ -120,10 +120,9 @@ font-weight: 600;
 margin: 15px 0px;
 }
 /* support section design end */
+/* main section-1 design end */
 
-/* About our flowers website section design. it's created for bonus mark */
-/* About our flowers website section design end */
-/* main section design end */
+/* main section-2 design start*/
 
 /* sale up section design start */
 .sale-up-bg{
@@ -153,3 +152,123 @@ margin: 15px 0px;
     margin: 20px 0px;
 }
 /* sale up section design end */
+
+/* instagram section design start */
+.instagram-section{
+    margin: 60px 0px;
+}
+.instagram-title{
+text-align: center;
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.instagram-info{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+margin: 15px 0px 50px 0px;
+}
+.instagram{
+   display: flex;
+   justify-content: space-between;
+}
+/* instagram section design end */
+
+ /* valentine section design start, its a bonus part */
+.valentine-flower{
+    display: flex;
+    gap: 30px;
+}
+.valentine-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.valentine-info{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px;
+    line-height: 0.7cm;
+}
+.valentine-discount{
+  margin-bottom: 12px;
+}
+.valentine-discount h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 0.9cm;
+}
+.valentine-discount i{
+    color: #E55473;
+}
+ /* valentine section design end */
+
+/* contact section design start */
+ .contact-bg{
+    background-image: url('./images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 60px 0px;
+    text-align: center;
+ }
+ .contact-title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.contact-info{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+margin: 15px 0px;
+}
+.input-box{
+    width: 60%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+}
+.sub-btn{
+    background-color:#E55473;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #FFF;
+    border: none;
+}
+/* contact section design end */
+/* main section-2 design end */
+
+/* footer section design start */
+.footer-bg{
+    background-color: #111010;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+.footer-details{
+    text-align: center;
+    width: 100%;
+}
+.footer-title{
+color: #E55473;
+font-size: 45px;
+font-weight: 800;
+}
+.footer-info{
+color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+margin: 18px 0px;
+}
+.copyright-info{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer section design end */
