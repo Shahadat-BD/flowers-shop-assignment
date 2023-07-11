@@ -6,13 +6,13 @@ body{
 }
 /* header section design start */
 .flower-bg{
-    background: rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
 }
 .flower{
     display: flex;
     align-items: center;
     justify-content:center;
-    gap: 30px;
+    gap: 10px;
 }
 .flower-details{
     width: 600px;
@@ -39,3 +39,117 @@ body{
     font-weight: 700;
 }
 /* header section design end */
+
+/*main section design start */
+/* flower-features design start */
+main{
+    width: 80%;
+    margin: auto;
+}
+.our-flower-feature{
+    margin: 60px 0px;
+}
+.feature-heading{
+text-align: center;
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.feature-info{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+margin: 15px 0px 50px 0px;
+}
+.flower-feature{
+   display: flex;
+   justify-content: space-between;
+}
+.feature img{
+    width: 220px;
+    height: 300px;
+    padding: 60px 50px 0px 50px;
+}
+.feature-img-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius:50% 50% 0px 0px;
+}
+.feature-img-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius:50% 50% 0px 0px;
+}
+.feature-img-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius:50% 50% 0px 0px;
+}
+.feature-title{
+color: #272727;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+text-decoration-line: underline;
+margin: 15px 0px;
+}
+/* flower-features design end */
+
+/* support section design start */
+.support-bg{
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.support{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+.support-details img{
+    width: 80px;
+    height: 80px;
+}
+.support-title{
+color: rgba(39, 39, 39, 0.80);
+font-size: 18px;
+font-weight: 600;
+margin: 15px 0px;
+}
+/* support section design end */
+
+/* About our flowers website section design. it's created for bonus mark */
+/* About our flowers website section design end */
+/* main section design end */
+
+/* sale up section design start */
+.sale-up-bg{
+    background-color: rgba(229, 84, 115, 0.10);
+    margin: 80px 0px;
+    padding: 50px 0px;
+}
+.sale-up{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.sale-up-details{
+    width: 600px;
+}
+.sale-up-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.sale-up-info{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+/* sale up section design end */
