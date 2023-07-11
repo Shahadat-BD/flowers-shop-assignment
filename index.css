@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header section design start */
+.flower-bg{
+    background: rgba(229, 84, 115, 0.10);
+}
+.flower{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.flower-details{
+    width: 600px;
+}
+.flower-title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+.flower-info{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 20px 0px;
+}
+.btn{
+    background-color: #E55473;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* header section design end */
